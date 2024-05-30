@@ -10,6 +10,13 @@ const Navbar = () => {
         { name: 'Jobs', path: '/', icon: '/assets/svg/Navbar/Jobs.svg' },
     ];
 
+    const buttons = [
+        { icon: "/assets/svg/Navbar/Lock.svg", backgroundColor: '#006AAE', name: "Login" },
+        { icon: "/assets/svg/Navbar/Map.svg", backgroundColor: '#1DAEF2' },
+        { icon: "/assets/svg/Navbar/Whatsapp.svg", backgroundColor: '#32CA5C' },
+        { icon: "/assets/svg/Navbar/Call.svg", backgroundColor: '#F1315F' },
+    ];
+
     return (
         <nav className="p-4 bg-transparent absolute w-full z-10 max-w-[1440px] mx-auto">
             <div className="container mx-auto flex justify-between items-center flex-wrap">
@@ -38,10 +45,9 @@ const Navbar = () => {
                         <img src="/assets/svg/Navbar/Menu.svg" alt="SVG" className='max-w-[25.93px] max-h-[25px]' />
                     </div>
                     <div className='flex gap-[10px]'>
-                        <Button icon={"/assets/svg/Navbar/Lock.svg"} backgroundColor={'#006AAE'} name="Login"/>
-                        <Button icon={"/assets/svg/Navbar/Map.svg"} backgroundColor={'#1DAEF2'}/>
-                        <Button icon={"/assets/svg/Navbar/Whatsapp.svg"} backgroundColor={'#32CA5C'}/>
-                        <Button icon={"/assets/svg/Navbar/Call.svg"} backgroundColor={'#F1315F'}/>
+                    {buttons.map((button, index) => (
+                        <Button key={index} icon={button.icon} backgroundColor={button.backgroundColor} name={button.name} />
+                    ))}
                     </div>
                 </div>
             </div>
