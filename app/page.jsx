@@ -1,4 +1,5 @@
 import Hero from '@/components/Hero/Hero'
+import Success from '@/components/Success/Success'
 import WhyChoose from '@/components/WhyChoose/WhyChoose'
 import React from 'react'
 
@@ -7,6 +8,7 @@ const page = () => {
     <section >
       <Hero/>
       <WhyChoose/>
+      <Success/>
     </section>
   )
 }

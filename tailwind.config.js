@@ -13,7 +13,8 @@ module.exports = {
         TextColor:'#3A3A3A',
         Paragraph:'#3A3A3A',
         customGreen: '#99BF34',
-        StrokeBlue: 'rgba(0, 106, 174, 0.1)'
+        StrokeBlue: 'rgba(0, 106, 174, 0.1)',
+        Readmore:'#006AAE'
       },
     },
   },

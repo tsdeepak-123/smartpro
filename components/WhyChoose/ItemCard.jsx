@@ -11,7 +11,7 @@ const ItemCard = ({ name, backgroundIcon}) => {
         />
         </div> 
    <div className='w-[106px] h-[44px]'>
-   <p className='text-[18px] font-medium text-Paragraph text-wrap text-center'>{name}</p>
+   <p className='text-[18px] font-medium text-Paragraph text-wrap text-center leading-[1.3]'>{name}</p>
    </div>
     </section>
   );
