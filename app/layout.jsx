@@ -13,7 +13,7 @@ const RootLayout = ({children}) => {
         <main className=''>
             <Navbar/>
             {children}
-            {/* <Footer/> */}
+            <Footer/>
         </main>
         </body>
     </html>

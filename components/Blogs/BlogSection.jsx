@@ -14,7 +14,7 @@ const BlogSection = () => {
     <section className='max-w-[1440px] py-8 flex justify-center'>
       <div className='flex flex-col w-full max-w-[1301px] justify-center'>
         <div className='flex justify-between items-center'>
-          <p className='text-[30px] text-TextColor font-bold'>Latest Blogs</p>
+          <p className='text-[30px] text-TextColor font-bold font-inter'>Latest Blogs</p>
           <Button name={'View All'} />
         </div>
         <div className='flex flex-wrap justify-center gap-3 mt-8'>

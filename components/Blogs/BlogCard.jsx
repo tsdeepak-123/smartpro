@@ -13,13 +13,13 @@ const BlogCard = ({ image, title, description, date }) => {
           style={{borderRadius: '0px 10px 0 0'}}
         />
         <div className='absolute bottom-4 right-0 bg-customGreen text-white text-xs px-2 py-1 rounded text-center'>
-          <div className='text-[16px] font-bold'>{day}</div>
-          <div className='text-[10px]'>{`${month}, ${year}`}</div>
+          <div className='text-[16px] font-bold font-inter'>{day}</div>
+          <div className='text-[10px] font-inter'>{`${month}, ${year}`}</div>
         </div>
       </div>
       <div className='p-4'>
-        <h2 className='text-[16px] text-TextColor font-semibold'>{title}</h2>
-        <p className='text-[13px] text-TextColor'>{description}</p>
+        <h2 className='text-[16px] text-TextColor font-semibold font-inter'>{title}</h2>
+        <p className='text-[13px] text-TextColor font-inter'>{description}</p>
       </div>
     </section>
   );

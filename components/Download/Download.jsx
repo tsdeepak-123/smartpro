@@ -4,7 +4,7 @@ import TextSection from "./TextSection/TextSection";
 
 const Download = () => {
   return (
-    <section className="w-full max-w-[1440px] h-[616px] relative overflow-hidden">
+    <section className="w-full max-w-[1440px] h-[616px] relative">
       <div className="absolute left-0 top-10">
         <img
           src="/assets/svg/Download/LeftRound.svg"

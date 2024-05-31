@@ -13,7 +13,7 @@ const Button = ({ icon, name, backgroundColor }) => {
       className="flex items-center justify-center max-h-[36px] text-white rounded-md focus:outline-none"
     >
       {icon && <img src={icon} alt="Icon" className="max-w-[16.74px] max-h-[18px]" />}
-      {name && <span className="ml-2">{name}</span>}
+      {name && <span className="ml-2 font-inter">{name}</span>}
     </button>
   );
 }

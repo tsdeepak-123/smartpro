@@ -3,7 +3,7 @@ const Search = () => {
     <div className="relative">
       <input 
         type="text" 
-        className="pl-3 pr-10 py-2 border rounded-md focus:outline-none focus:border-customBlue" 
+        className="pl-3 pr-10 py-2 border rounded-md focus:outline-none focus:border-customBlue font-inter" 
         style={{ maxHeight: "36px", width: "187px" }} 
         placeholder="Search..." 
       />

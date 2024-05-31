@@ -30,7 +30,7 @@ const Navbar = () => {
                         {menuItems.map((item, index) => (
                             <li key={index}>
                                 <Link href={item.path}>
-                                    <div className="flex items-center text-customBlue text-[] cursor-pointer">
+                                    <div className="flex items-center text-customBlue text-[14px] cursor-pointer font-inter">
                                         <img src={item.icon} alt={item.name} className="max-h-[18px] max-w-[17.55px] mr-2" />
                                         {item.name}
                                     </div>
