@@ -10,11 +10,11 @@ const Success = () => {
   ];
 
   return (
-    <section className='max-w-[1440px] h-[380px] flex flex-col '>
-      <div className='h-[321px] flex flex-col justify-start ml-14'>
+    <section className='max-w-[1440px] py-8 flex flex-col'>
+      <div className='flex flex-col justify-start px-14'>
         <p className='text-[30px] text-TextColor font-bold'>We lead you to Success</p>
       </div>
-      <div className='flex flex-wrap justify-center mx-auto gap-3 mb-16'>
+      <div className='flex flex-wrap justify-center mx-auto gap-3 mt-8'>
         {items.map((item, index) => (
           <ItemCard key={index} Icon={item.icon} title={item.title} description={item.description} />
         ))}
