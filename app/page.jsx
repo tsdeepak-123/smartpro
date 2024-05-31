@@ -1,3 +1,4 @@
+import AboutUs from '@/components/About/AboutUs'
 import BlogSection from '@/components/Blogs/BlogSection'
 import Download from '@/components/Download/Download'
 import Hero from '@/components/Hero/Hero'
@@ -11,6 +12,7 @@ const page = () => {
       <Hero/>
       <WhyChoose/>
       <Success/>
+      <AboutUs/>
       <BlogSection/>
       <Download/>
     </section>
