@@ -1,3 +1,10 @@
-<svg width="99" height="195" viewBox="0 0 99 195" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle opacity="0.1" cx="1.30649" cy="97.3068" r="94.2337" transform="rotate(98.7105 1.30649 97.3068)" stroke="#006AAE" stroke-width="5"/>
+<svg width="112" height="221" viewBox="0 0 112 221" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="1.3066" cy="110.307" r="41.1503" transform="rotate(98.7105 1.3066 110.307)" stroke="url(#paint0_linear_0_1)" stroke-width="20"/>
+<circle opacity="0.1" cx="1.30649" cy="110.307" r="94.2337" transform="rotate(98.7105 1.30649 110.307)" stroke="#006AAE" stroke-width="5"/>
+<defs>
+<linearGradient id="paint0_linear_0_1" x1="-19.1748" y1="83.7395" x2="22.734" y2="84.8484" gradientUnits="userSpaceOnUse">
+<stop stop-color="#006AAE"/>
+<stop offset="1" stop-color="#99BF34"/>
+</linearGradient>
+</defs>
 </svg>
