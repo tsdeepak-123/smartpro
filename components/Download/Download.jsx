@@ -1,4 +1,3 @@
-import React from "react";
 import MobileSection from "./MobileSection";
 import TextSection from "./TextSection/TextSection";
 

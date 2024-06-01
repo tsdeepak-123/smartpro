@@ -1,5 +1,3 @@
-import React from "react";
-
 const MobileSection = () => {
   return (
     <section className="flex justify-center lg:justify-start">

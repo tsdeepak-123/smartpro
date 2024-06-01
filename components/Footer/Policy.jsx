@@ -1,18 +1,16 @@
-import React from 'react';
-
 const Policy = () => {
   const menuItems = [
-    'Contact Us',
-    'Partner With Us',
-    'Pricing',
-    'Testimonials',
-    'About Us',
-    'Careers',
-    'FAQs',
-    'Case Studies',
-    'Blogs',
-    'News & Events',
-    'Services'
+    "Contact Us",
+    "Partner With Us",
+    "Pricing",
+    "Testimonials",
+    "About Us",
+    "Careers",
+    "FAQs",
+    "Case Studies",
+    "Blogs",
+    "News & Events",
+    "Services",
   ];
 
   return (
@@ -27,7 +25,10 @@ const Policy = () => {
         </div>
         <div className="flex-1">
           <p className="font-inter text-[12px] text-TextColor">
-            All trademarks, logos and names are properties of their respective owners. Unauthorized Copying, Usage, Publishing of our website contents prohibited. Use of this Web site constitutes acceptance of our User Agreement, Cancellation & Refund and Privacy Policy.
+            All trademarks, logos and names are properties of their respective
+            owners. Unauthorized Copying, Usage, Publishing of our website
+            contents prohibited. Use of this Web site constitutes acceptance of
+            our User Agreement, Cancellation & Refund and Privacy Policy.
           </p>
         </div>
       </div>
