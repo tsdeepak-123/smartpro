@@ -16,7 +16,7 @@ const Policy = () => {
   ];
 
   return (
-    <section className="container mx-auto py-6">
+    <section className="container mx-auto py-6 relative left-5">
       <div className="flex justify-between items-center">
         <div className="flex-1 w-[504px]">
           <ul className="flex flex-wrap gap-4 font-inter text-[14px] text-TextColor">

@@ -11,8 +11,8 @@ const Foot = () => {
   ];
 
   return (
-    <section className='flex justify-between items-center'>
-      <div className='flex gap-6'>
+    <section className='container mx-auto flex justify-between items-center'>
+      <div className='flex gap-6 relative left-8'>
         <div>
           <img src="/assets/Images/Logo.png" alt="" className='w-[139.47px] h-[50px]'/>
         </div>
@@ -21,7 +21,7 @@ const Foot = () => {
           <p className='text-[14px] opacity-[80%] font-inter text-TextColor'>All Rights Reserved.</p>
         </div>
       </div>
-      <div>
+      <div className='relative right-8'>
         <ul className='flex gap-4 font-inter text-[14px] text-TextColor'>
           {menuItems.map((item, index) => (
             <li key={index}>{item}</li>

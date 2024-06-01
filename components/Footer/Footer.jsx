@@ -6,7 +6,7 @@ import Foot from "./Foot";
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-50 max-w-[1440px] border-t border-black">
+    <footer className="bg-blue-50 max-w-[1440px] border-t border-black container">
       <div className="container max mx-auto py-10">
         <div>
           <Services />

@@ -19,7 +19,7 @@ const BlogCard = ({ image, title, description, date }) => {
       </div>
       <div className='p-4'>
         <h2 className='text-[16px] text-TextColor font-semibold font-inter'>{title}</h2>
-        <p className='text-[13px] text-TextColor font-inter'>{description}</p>
+        <p className='text-[13px] text-TextColor font-inter opacity-[70%]'>{description}</p>
       </div>
     </section>
   );

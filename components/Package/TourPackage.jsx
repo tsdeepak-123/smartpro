@@ -14,15 +14,15 @@ const TourPackage = () => {
   ];
 
   return (
-    <section className="max-w-[1440px] h-[688px] flex items-center justify-center">
-      <div className="w-full max-w-[1299px] h-[635px] relative">
+    <section className="max-w-[1440px] h-auto lg:h-[688px] flex items-center justify-center">
+      <div className="w-full max-w-[1299px] h-auto lg:h-[635px] relative ">
         <CategorySection/>
-        <div className="absolute top-0 right-0 w-[calc(100%-200px)]">
-          <div className="flex justify-between mb-4">
+        <div className="lg:absolute top-0 right-0 w-full lg:w-[calc(100%-200px)]">
+          <div className="flex flex-col lg:flex-row justify-between mb-4">
             <p className="font-inter font-bold text-[30px] text-TextColor">Top Tour Packages</p>
             <Button name={'View All'}/>
           </div>
-          <div className="mx-auto grid grid-cols-3 gap-4">
+          <div className="mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {packages.map((pkg, index) => (
               <PackageCard key={index} Place={pkg.Place} Days={pkg.Days} Images={pkg.Images} />
             ))}
